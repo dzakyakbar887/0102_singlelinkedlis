@@ -58,3 +58,8 @@ class linkedList
             nodebaru->next = current;
             previous->next = nodebaru;
     }
+
+    bool listEmpty()
+    {
+        return (start == NULL);
+    }
