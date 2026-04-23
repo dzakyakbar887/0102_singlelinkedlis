@@ -130,4 +130,7 @@ int main()
         cout << "4. Mencari data dalam list" << endl;
         cout << "5. keluar" << endl;
 
+        cout << "\nMasukkan pilihan (1-5): ";
+        cin >> ch;
+
        
